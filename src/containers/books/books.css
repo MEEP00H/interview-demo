@@ -1,0 +1,23 @@
+.bookBtn{
+    border: none;
+    background: none;
+    margin-top: 10%;
+    color: #001529;
+}
+.bookCard{
+    box-shadow : 0 1px 1px rgba(0,0,0,0.12),0 1px 1px rgba(0,0,0,0.24);
+    transition : all 0.3s cubic-bezier(0.25, 0.8, 0.2, 1);
+    -moz-user-select:none;
+    -webkit-user-select:none;
+    user-select:none;
+    -o-user-select:none; 
+}
+.bookCard:hover{
+    box-shadow : 0 5px 5px rgba(0,0,0,0.25),0 5px 5px rgba(0,0,0,0.22);
+}
+.book{
+    margin-left: 3%;
+}
+.warning{
+    margin: 15% 0 0 40%;
+}
